@@ -1,2 +1,2 @@
-# slot-machine-sample-ios
+# Slot Machine App
 Sample SwiftUI App
