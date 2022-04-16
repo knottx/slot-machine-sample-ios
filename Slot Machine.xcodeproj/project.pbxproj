@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B06638F280AB773006CC324 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06638E280AB773006CC324 /* LogoView.swift */; };
+		8B066392280AB7C3006CC324 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B066391280AB7C3006CC324 /* Modifiers.swift */; };
+		8B066395280AE934006CC324 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B066394280AE934006CC324 /* ReelView.swift */; };
+		8B066397280AF8CA006CC324 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B066396280AF8CA006CC324 /* InfoView.swift */; };
 		8BBCB6952809C10E00E1AC6C /* Slot_MachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6942809C10E00E1AC6C /* Slot_MachineApp.swift */; };
 		8BBCB6972809C10E00E1AC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6962809C10E00E1AC6C /* ContentView.swift */; };
 		8BBCB6992809C10F00E1AC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBCB6982809C10F00E1AC6C /* Assets.xcassets */; };
@@ -19,11 +23,15 @@
 		8BBCB6B02809C1D800E1AC6C /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BBCB6A82809C1D800E1AC6C /* game-over.mp3 */; };
 		8BBCB6B12809C1D800E1AC6C /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BBCB6A92809C1D800E1AC6C /* high-score.mp3 */; };
 		8BBCB6B22809C1D800E1AC6C /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BBCB6AA2809C1D800E1AC6C /* riseup.mp3 */; };
-		8BBCB6B42809C2A900E1AC6C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6B32809C2A900E1AC6C /* Color.swift */; };
+		8BBCB6B42809C2A900E1AC6C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCB6B32809C2A900E1AC6C /* Extensions.swift */; };
 		8BBCB6B82809C35300E1AC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBCB6B72809C35300E1AC6C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B06638E280AB773006CC324 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		8B066391280AB7C3006CC324 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		8B066394280AE934006CC324 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		8B066396280AF8CA006CC324 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		8BBCB6912809C10E00E1AC6C /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBCB6942809C10E00E1AC6C /* Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot_MachineApp.swift; sourceTree = "<group>"; };
 		8BBCB6962809C10E00E1AC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +45,7 @@
 		8BBCB6A82809C1D800E1AC6C /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
 		8BBCB6A92809C1D800E1AC6C /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
 		8BBCB6AA2809C1D800E1AC6C /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
-		8BBCB6B32809C2A900E1AC6C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8BBCB6B32809C2A900E1AC6C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8BBCB6B72809C35300E1AC6C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B066390280AB77A006CC324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B06638E280AB773006CC324 /* LogoView.swift */,
+				8B066394280AE934006CC324 /* ReelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B066393280AB7E9006CC324 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8B066391280AB7C3006CC324 /* Modifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		8BBCB6882809C10E00E1AC6C = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				8BBCB6942809C10E00E1AC6C /* Slot_MachineApp.swift */,
+				8B066393280AB7E9006CC324 /* Modifiers */,
+				8B066390280AB77A006CC324 /* Views */,
 				8BBCB6B62809C2EB00E1AC6C /* Screens */,
 				8BBCB6B52809C2E300E1AC6C /* Extensions */,
 				8BBCB6982809C10F00E1AC6C /* Assets.xcassets */,
@@ -108,7 +135,7 @@
 		8BBCB6B52809C2E300E1AC6C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8BBCB6B32809C2A900E1AC6C /* Color.swift */,
+				8BBCB6B32809C2A900E1AC6C /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -117,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				8BBCB6962809C10E00E1AC6C /* ContentView.swift */,
+				8B066396280AF8CA006CC324 /* InfoView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -200,9 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B066395280AE934006CC324 /* ReelView.swift in Sources */,
+				8B066397280AF8CA006CC324 /* InfoView.swift in Sources */,
+				8B066392280AB7C3006CC324 /* Modifiers.swift in Sources */,
 				8BBCB6972809C10E00E1AC6C /* ContentView.swift in Sources */,
+				8B06638F280AB773006CC324 /* LogoView.swift in Sources */,
 				8BBCB6952809C10E00E1AC6C /* Slot_MachineApp.swift in Sources */,
-				8BBCB6B42809C2A900E1AC6C /* Color.swift in Sources */,
+				8BBCB6B42809C2A900E1AC6C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
